@@ -1,0 +1,13 @@
+# Python 3.11. After your first successful run, run `pip freeze` and pin the exact
+# versions of these packages (see README, step 2).
+streamlit>=1.40
+crewai>=0.100
+litellm
+pydantic>=2.5
+pandas>=2.0
+openpyxl>=3.1
+pypdf>=4.0
+requests>=2.31
+ddgs>=9.0
+pysqlite3-binary; sys_platform == "linux"
+pytest
